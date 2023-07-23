@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+  margin: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+.slide{
+  display: flex;
+}
+
+.slide li{
+  flex-shrink: 0;
+  max-width: 800px;
+  width: 80vh;
+  margin: 0 20px;
+}
