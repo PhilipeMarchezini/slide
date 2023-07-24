@@ -17,9 +17,13 @@ img{
   display: flex;
 }
 
+.slide-wrapper{
+  overflow: hidden;
+}
+
 .slide li{
   flex-shrink: 0;
   max-width: 800px;
-  width: 80vh;
+  width: 80vw;
   margin: 0 20px;
 }
